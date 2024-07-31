@@ -4,9 +4,9 @@ def fizz_buzz(i,first,second):
         answer = "FizzBuzz"
     elif i % 3 == 0:
         answer = "Fizz"
-     elif i % 5 == 0 :
+    elif i % 5 == 0 :
         answer = "Buzz"
-     else:
+    else:
         answer = str(i)
         
         print(i, answer)
@@ -40,3 +40,6 @@ def fizz_buzz_comprehension(up_to_number):
 
 if __name__ == "__main__":
     fizz_buzz(25)
+
+
+
